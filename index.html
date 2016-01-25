@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>IDN Homograph Attack Example</title>
+	</head>
+	<body>
+		<h1>IDN Homograph Attack Example</h1>
+
+		<p>
+			An IDN Homograph Attack is using unicode to make a domain name that
+			looks similar to another domain name. These threats can be mitigated
+			by using <a href="https://en.wikipedia.org/wiki/IDN_homograph_attack#Defending_against_the_attack">Punycode</a>
+			and by being more careful of clicking on URLS.
+		</p>
+
+		<h2>Examples:</h2>
+		<p>
+			<a href="http://ĝoogle.com">http://ĝoogle.com</a> -- ĸ not k
+		</p>
+		<p>
+			<a href="http://ḃing.com">http://ḃing.com</a> -- ḃ not b
+		</p>
+		<p>
+			<a href="http://asĸ.com">http://asĸ.com</a> -- ĸ not k
+		</p>
+
+		<h2>Unprotected Software:</h2>
+		<p>
+			Please keep this list updated! These programs do not escape these unsafe URLs:<br />
+
+			<ol>
+				<li><a href="https://www.mozilla.org/en-US/firefox/products/">Mozilla Firefox</a>(43.0.4) partial protection as of January 25th 2016</li>
+				<li><a href="https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx">Microsoft Visual Studio Community Edition</a>(14.0.24720.00) no support as of January 25th 2016</li>
+			</ol>
+		</p>
+
+		<h2>References:</h2>
+		<ol>
+			<li><a href="https://en.wikipedia.org/wiki/IDN_homograph_attack">https://en.wikipedia.org/wiki/IDN_homograph_attack</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Punycode">https://en.wikipedia.org/wiki/Punycode<a/></li>
+			<li><a href="https://en.wikipedia.org/wiki/List_of_Unicode_characters">https://en.wikipedia.org/wiki/List_of_Unicode_characters</a></li>
+		</ol>
+	</body>
+	<script>
+
+	</script>
+</html>
